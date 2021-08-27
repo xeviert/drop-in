@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "studio_name": "Breitenberg-Kovacek",
+    "city": "Huntsville",
+    "state": "AL",
+    "website": "http://soundcloud.com"
+  },
+  {
+    "id": 2,
+    "studio_name": "McCullough, Wyman and Ferry",
+    "city": "Nashville",
+    "state": "TN",
+    "website": "http://jigsy.com"
+  },
+  {
+    "id": 3,
+    "studio_name": "Veum Inc",
+    "city": "Portsmouth",
+    "state": "VA",
+    "website": "https://networkadvertising.org"
+  },
+  {
+    "id": 4,
+    "studio_name": "Beer, Runte and Schoen",
+    "city": "Corpus Christi",
+    "state": "TX",
+    "website": "http://umich.edu"
+  },
+  {
+    "id": 5,
+    "studio_name": "Streich-Hills",
+    "city": "Riverside",
+    "state": "CA",
+    "website": "https://oracle.com"
+  },
+  {
+    "id": 6,
+    "studio_name": "Bailey, Feil and Hartmann",
+    "city": "Las Vegas",
+    "state": "NV",
+    "website": "https://last.fm"
+  },
+  {
+    "id": 7,
+    "studio_name": "Bogan, Mertz and Mueller",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "website": "https://github.com"
+  },
+  {
+    "id": 8,
+    "studio_name": "Gaylord Group",
+    "city": "Rochester",
+    "state": "NY",
+    "website": "https://pbs.org"
+  },
+  {
+    "id": 9,
+    "studio_name": "Collier LLC",
+    "city": "Wichita",
+    "state": "KS",
+    "website": "http://un.org"
+  },
+  {
+    "id": 10,
+    "studio_name": "Walker-Jerde",
+    "city": "Escondido",
+    "state": "CA",
+    "website": "http://wikimedia.org"
+  },
+  {
+    "id": 11,
+    "studio_name": "Shanahan, Dickens and Russel",
+    "city": "Austin",
+    "state": "TX",
+    "website": "http://baidu.com"
+  },
+  {
+    "id": 12,
+    "studio_name": "Hackett-Legros",
+    "city": "Madison",
+    "state": "WI",
+    "website": "https://europa.eu"
+  },
+  {
+    "id": 13,
+    "studio_name": "Ankunding, Corwin and Gusikowski",
+    "city": "Beaufort",
+    "state": "SC",
+    "website": "http://wix.com"
+  },
+  {
+    "id": 14,
+    "studio_name": "McLaughlin, Sipes and Gorczany",
+    "city": "Largo",
+    "state": "FL",
+    "website": "https://salon.com"
+  },
+  {
+    "id": 15,
+    "studio_name": "Wisozk-Lubowitz",
+    "city": "El Paso",
+    "state": "TX",
+    "website": "http://uiuc.edu"
+  },
+  {
+    "id": 16,
+    "studio_name": "Davis-Hintz",
+    "city": "Bakersfield",
+    "state": "CA",
+    "website": "http://mapy.cz"
+  },
+  {
+    "id": 17,
+    "studio_name": "Keeling Inc",
+    "city": "Hyattsville",
+    "state": "MD",
+    "website": "https://timesonline.co.uk"
+  },
+  {
+    "id": 18,
+    "studio_name": "Ratke Group",
+    "city": "Omaha",
+    "state": "NE",
+    "website": "http://hubpages.com"
+  },
+  {
+    "id": 19,
+    "studio_name": "Wilderman, Strosin and Hilpert",
+    "city": "New York City",
+    "state": "NY",
+    "website": "http://google.co.jp"
+  },
+  {
+    "id": 20,
+    "studio_name": "D'Amore-O'Conner",
+    "city": "Saint Louis",
+    "state": "MO",
+    "website": "https://ow.ly"
+  },
+  {
+    "id": 21,
+    "studio_name": "Cormier-Ortiz",
+    "city": "Miami",
+    "state": "FL",
+    "website": "https://naver.com"
+  },
+  {
+    "id": 22,
+    "studio_name": "Mann, Davis and Smitham",
+    "city": "Detroit",
+    "state": "MI",
+    "website": "http://cdbaby.com"
+  },
+  {
+    "id": 23,
+    "studio_name": "Crooks Inc",
+    "city": "Anchorage",
+    "state": "AK",
+    "website": "http://apache.org"
+  },
+  {
+    "id": 24,
+    "studio_name": "Reichert LLC",
+    "city": "Grand Rapids",
+    "state": "MI",
+    "website": "http://istockphoto.com"
+  },
+  {
+    "id": 25,
+    "studio_name": "Gorczany, Bayer and Purdy",
+    "city": "Tampa",
+    "state": "FL",
+    "website": "https://cyberchimps.com"
+  },
+  {
+    "id": 26,
+    "studio_name": "Hoeger-Parisian",
+    "city": "Montgomery",
+    "state": "AL",
+    "website": "https://ow.ly"
+  },
+  {
+    "id": 27,
+    "studio_name": "Murphy, Kessler and Blanda",
+    "city": "Corpus Christi",
+    "state": "TX",
+    "website": "http://barnesandnoble.com"
+  },
+  {
+    "id": 28,
+    "studio_name": "Rodriguez-Hayes",
+    "city": "Bozeman",
+    "state": "MT",
+    "website": "http://latimes.com"
+  },
+  {
+    "id": 29,
+    "studio_name": "Kuhlman Inc",
+    "city": "Jackson",
+    "state": "TN",
+    "website": "http://g.co"
+  },
+  {
+    "id": 30,
+    "studio_name": "Ritchie, Keebler and Von",
+    "city": "Whittier",
+    "state": "CA",
+    "website": "http://rakuten.co.jp"
+  },
+  {
+    "id": 31,
+    "studio_name": "Emmerich, Tremblay and Lubowitz",
+    "city": "Fresno",
+    "state": "CA",
+    "website": "http://ucla.edu"
+  },
+  {
+    "id": 32,
+    "studio_name": "Douglas, Auer and Zulauf",
+    "city": "Memphis",
+    "state": "TN",
+    "website": "https://creativecommons.org"
+  },
+  {
+    "id": 33,
+    "studio_name": "Jerde LLC",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "website": "https://dagondesign.com"
+  },
+  {
+    "id": 34,
+    "studio_name": "Romaguera, Considine and Smitham",
+    "city": "Hampton",
+    "state": "VA",
+    "website": "http://marriott.com"
+  },
+  {
+    "id": 35,
+    "studio_name": "Predovic-Fay",
+    "city": "Dallas",
+    "state": "TX",
+    "website": "http://google.fr"
+  },
+  {
+    "id": 36,
+    "studio_name": "Wintheiser Group",
+    "city": "Troy",
+    "state": "MI",
+    "website": "http://nytimes.com"
+  },
+  {
+    "id": 37,
+    "studio_name": "Johnson, Hartmann and Shanahan",
+    "city": "Saint Petersburg",
+    "state": "FL",
+    "website": "http://ucsd.edu"
+  },
+  {
+    "id": 38,
+    "studio_name": "Fay, Herzog and Mills",
+    "city": "Pueblo",
+    "state": "CO",
+    "website": "https://blogspot.com"
+  },
+  {
+    "id": 39,
+    "studio_name": "Borer-Considine",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "website": "https://ihg.com"
+  },
+  {
+    "id": 40,
+    "studio_name": "Schinner and Sons",
+    "city": "Boise",
+    "state": "ID",
+    "website": "https://usgs.gov"
+  },
+  {
+    "id": 41,
+    "studio_name": "Kerluke, Carroll and Lubowitz",
+    "city": "Tampa",
+    "state": "FL",
+    "website": "http://ustream.tv"
+  },
+  {
+    "id": 42,
+    "studio_name": "VonRueden-Reynolds",
+    "city": "Houston",
+    "state": "TX",
+    "website": "http://earthlink.net"
+  },
+  {
+    "id": 43,
+    "studio_name": "Ondricka-Becker",
+    "city": "Honolulu",
+    "state": "HI",
+    "website": "https://bandcamp.com"
+  },
+  {
+    "id": 44,
+    "studio_name": "Satterfield-Sawayn",
+    "city": "San Francisco",
+    "state": "CA",
+    "website": "https://domainmarket.com"
+  },
+  {
+    "id": 45,
+    "studio_name": "McCullough-Barrows",
+    "city": "Mobile",
+    "state": "AL",
+    "website": "https://mapquest.com"
+  },
+  {
+    "id": 46,
+    "studio_name": "Hyatt-Heaney",
+    "city": "Muncie",
+    "state": "IN",
+    "website": "http://nature.com"
+  },
+  {
+    "id": 47,
+    "studio_name": "Purdy-Douglas",
+    "city": "Jackson",
+    "state": "MS",
+    "website": "https://zdnet.com"
+  },
+  {
+    "id": 48,
+    "studio_name": "Terry-Kulas",
+    "city": "Nashville",
+    "state": "TN",
+    "website": "http://irs.gov"
+  },
+  {
+    "id": 49,
+    "studio_name": "Funk, Reilly and Larson",
+    "city": "Moreno Valley",
+    "state": "CA",
+    "website": "http://plala.or.jp"
+  },
+  {
+    "id": 50,
+    "studio_name": "Howell Inc",
+    "city": "Wichita",
+    "state": "KS",
+    "website": "https://baidu.com"
+  }
+]

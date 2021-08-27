@@ -10,8 +10,8 @@ export default function Register() {
         <h1>Register</h1>
       </div>
 
-      <section>
-        <form className='form-group' id='register-login-form'>
+      <section id='register-login-form'>
+        <form className='form-group register-form'>
           {/* {this.state.error && <p className='error'>{this.state.error}</p>} */}
           <label for='first-name' id='label-id'>
             Full name:
@@ -57,7 +57,9 @@ export default function Register() {
             required
           ></input>
           <br />
-          <button type='submit'>Register</button>
+          <button type='submit' className='btn'>
+            Register
+          </button>
         </form>
       </section>
 

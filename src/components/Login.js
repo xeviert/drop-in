@@ -8,8 +8,8 @@ export default function Login() {
         <h1>Login</h1>
       </div>
 
-      <section>
-        <form class='form-group' id='register-login-form'>
+      <section id='register-login-form'>
+        <form class='form-group login-form'>
           {/* {this.state.error && <p className='error'>{this.state.error}</p>} */}
           <label for='email' id='label-id' type='email' required>
             Email Address:
@@ -33,7 +33,9 @@ export default function Login() {
             required
           ></input>
           <br />
-          <button type='submit'>Register</button>
+          <button type='submit' className='btn'>
+            Login
+          </button>
         </form>
       </section>
     </div>
