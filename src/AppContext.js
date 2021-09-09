@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import mockStudios from './store/studios.json';
 import mockTeachers from './store/teachers.json';
+import mockRooms from './store/studio_rooms.json';
 
 export const AppContext = React.createContext();
 
@@ -12,6 +13,7 @@ export default class AppProvider extends Component {
       studios: mockStudios,
     };
   }
+
 
   render() {
     return (

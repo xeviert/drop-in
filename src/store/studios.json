@@ -4,349 +4,608 @@
     "studio_name": "Breitenberg-Kovacek",
     "city": "Huntsville",
     "state": "AL",
-    "website": "http://soundcloud.com"
+    "website": "http://soundcloud.com",
+    "rooms": [
+      { "id": 1, "heated": false, "capacity": 89 },
+      { "id": 2, "heated": true, "capacity": 74 },
+      { "id": 3, "heated": true, "capacity": 100 },
+      { "id": 154, "heated": false, "capacity": 52 },
+      { "id": 155, "heated": false, "capacity": 32 }
+    ]
   },
   {
     "id": 2,
     "studio_name": "McCullough, Wyman and Ferry",
     "city": "Nashville",
     "state": "TN",
-    "website": "http://jigsy.com"
+    "website": "http://jigsy.com",
+    "rooms": [
+      { "id": 4, "heated": false, "capacity": 68 },
+      { "id": 5, "heated": true, "capacity": 82 },
+      { "id": 6, "heated": true, "capacity": 83 },
+      { "id": 7, "heated": false, "capacity": 76 }
+    ]
   },
   {
     "id": 3,
     "studio_name": "Veum Inc",
     "city": "Portsmouth",
     "state": "VA",
-    "website": "https://networkadvertising.org"
+    "website": "https://networkadvertising.org",
+    "rooms": [
+      { "id": 8, "heated": true, "capacity": 34 },
+      { "id": 9, "heated": true, "capacity": 42 }
+    ]
   },
   {
     "id": 4,
     "studio_name": "Beer, Runte and Schoen",
     "city": "Corpus Christi",
     "state": "TX",
-    "website": "http://umich.edu"
+    "website": "http://umich.edu",
+    "rooms": [
+      { "id": 10, "heated": false, "capacity": 84 },
+      { "id": 11, "heated": true, "capacity": 73 }
+    ]
   },
   {
     "id": 5,
     "studio_name": "Streich-Hills",
     "city": "Riverside",
     "state": "CA",
-    "website": "https://oracle.com"
+    "website": "https://oracle.com",
+    "rooms": [
+      { "id": 12, "heated": true, "capacity": 84 },
+      { "id": 13, "heated": true, "capacity": 75 },
+      { "id": 14, "heated": false, "capacity": 51 }
+    ]
   },
   {
     "id": 6,
     "studio_name": "Bailey, Feil and Hartmann",
     "city": "Las Vegas",
     "state": "NV",
-    "website": "https://last.fm"
+    "website": "https://last.fm",
+    "rooms": [
+      { "id": 15, "heated": true, "capacity": 39 },
+      { "id": 16, "heated": false, "capacity": 63 }
+    ]
   },
   {
     "id": 7,
     "studio_name": "Bogan, Mertz and Mueller",
     "city": "Colorado Springs",
     "state": "CO",
-    "website": "https://github.com"
+    "website": "https://github.com",
+    "rooms": [
+      { "id": 17, "heated": false, "capacity": 48 },
+      { "id": 18, "heated": false, "capacity": 39 },
+      { "id": 19, "heated": true, "capacity": 80 }
+    ]
   },
   {
     "id": 8,
     "studio_name": "Gaylord Group",
     "city": "Rochester",
     "state": "NY",
-    "website": "https://pbs.org"
+    "website": "https://pbs.org",
+    "rooms": [
+      { "id": 20, "heated": false, "capacity": 50 },
+      { "id": 156, "heated": false, "capacity": 55 },
+      { "id": 157, "heated": true, "capacity": 44 }
+    ]
   },
   {
     "id": 9,
     "studio_name": "Collier LLC",
     "city": "Wichita",
     "state": "KS",
-    "website": "http://un.org"
+    "website": "http://un.org",
+    "rooms": [
+      { "id": 21, "heated": false, "capacity": 95 },
+      { "id": 22, "heated": false, "capacity": 97 },
+      { "id": 23, "heated": false, "capacity": 41 }
+    ]
   },
   {
     "id": 10,
     "studio_name": "Walker-Jerde",
     "city": "Escondido",
     "state": "CA",
-    "website": "http://wikimedia.org"
+    "website": "http://wikimedia.org",
+    "rooms": [
+      { "id": 24, "heated": false, "capacity": 58 },
+      { "id": 25, "heated": true, "capacity": 76 }
+    ]
   },
   {
     "id": 11,
     "studio_name": "Shanahan, Dickens and Russel",
     "city": "Austin",
     "state": "TX",
-    "website": "http://baidu.com"
+    "website": "http://baidu.com",
+    "rooms": [
+      { "id": 26, "heated": false, "capacity": 48 },
+      { "id": 27, "heated": false, "capacity": 74 },
+      { "id": 28, "heated": false, "capacity": 94 },
+      { "id": 29, "heated": true, "capacity": 77 }
+    ]
   },
   {
     "id": 12,
     "studio_name": "Hackett-Legros",
     "city": "Madison",
     "state": "WI",
-    "website": "https://europa.eu"
+    "website": "https://europa.eu",
+    "rooms": [
+      { "id": 30, "heated": true, "capacity": 76 },
+      { "id": 31, "heated": true, "capacity": 80 }
+    ]
   },
   {
     "id": 13,
     "studio_name": "Ankunding, Corwin and Gusikowski",
     "city": "Beaufort",
     "state": "SC",
-    "website": "http://wix.com"
+    "website": "http://wix.com",
+    "rooms": [
+      { "id": 32, "heated": false, "capacity": 52 },
+      { "id": 33, "heated": false, "capacity": 50 },
+      { "id": 34, "heated": true, "capacity": 96 }
+    ]
   },
   {
     "id": 14,
     "studio_name": "McLaughlin, Sipes and Gorczany",
     "city": "Largo",
     "state": "FL",
-    "website": "https://salon.com"
+    "website": "https://salon.com",
+    "rooms": [
+      { "id": 35, "heated": true, "capacity": 49 },
+      { "id": 36, "heated": true, "capacity": 98 }
+    ]
   },
   {
     "id": 15,
     "studio_name": "Wisozk-Lubowitz",
     "city": "El Paso",
     "state": "TX",
-    "website": "http://uiuc.edu"
+    "website": "http://uiuc.edu",
+    "rooms": [
+      { "id": 37, "heated": false, "capacity": 65 },
+      { "id": 38, "heated": false, "capacity": 69 }
+    ]
   },
   {
     "id": 16,
     "studio_name": "Davis-Hintz",
     "city": "Bakersfield",
     "state": "CA",
-    "website": "http://mapy.cz"
+    "website": "http://mapy.cz",
+    "rooms": [
+      { "id": 39, "heated": false, "capacity": 100 },
+      { "id": 40, "heated": false, "capacity": 82 }
+    ]
   },
   {
     "id": 17,
     "studio_name": "Keeling Inc",
     "city": "Hyattsville",
     "state": "MD",
-    "website": "https://timesonline.co.uk"
+    "website": "https://timesonline.co.uk",
+    "rooms": [
+      { "id": 41, "heated": false, "capacity": 48 },
+      { "id": 42, "heated": true, "capacity": 62 },
+      { "id": 43, "heated": true, "capacity": 78 }
+    ]
   },
   {
     "id": 18,
     "studio_name": "Ratke Group",
     "city": "Omaha",
     "state": "NE",
-    "website": "http://hubpages.com"
+    "website": "http://hubpages.com",
+    "rooms": [
+      { "id": 44, "heated": false, "capacity": 71 },
+      { "id": 45, "heated": false, "capacity": 74 },
+      { "id": 46, "heated": true, "capacity": 81 },
+      { "id": 47, "heated": false, "capacity": 35 }
+    ]
   },
   {
     "id": 19,
     "studio_name": "Wilderman, Strosin and Hilpert",
     "city": "New York City",
     "state": "NY",
-    "website": "http://google.co.jp"
+    "website": "http://google.co.jp",
+    "rooms": [
+      { "id": 48, "heated": false, "capacity": 96 },
+      { "id": 49, "heated": true, "capacity": 92 },
+      { "id": 50, "heated": false, "capacity": 73 },
+      { "id": 51, "heated": false, "capacity": 39 }
+    ]
   },
   {
     "id": 20,
     "studio_name": "D'Amore-O'Conner",
     "city": "Saint Louis",
     "state": "MO",
-    "website": "https://ow.ly"
+    "website": "https://ow.ly",
+    "rooms": [
+      { "id": 52, "heated": true, "capacity": 45 },
+      { "id": 53, "heated": true, "capacity": 70 }
+    ]
   },
   {
     "id": 21,
     "studio_name": "Cormier-Ortiz",
     "city": "Miami",
     "state": "FL",
-    "website": "https://naver.com"
+    "website": "https://naver.com",
+    "rooms": [
+      { "id": 54, "heated": false, "capacity": 30 },
+      { "id": 55, "heated": true, "capacity": 92 },
+      { "id": 56, "heated": false, "capacity": 95 }
+    ]
   },
   {
     "id": 22,
     "studio_name": "Mann, Davis and Smitham",
     "city": "Detroit",
     "state": "MI",
-    "website": "http://cdbaby.com"
+    "website": "http://cdbaby.com",
+    "rooms": [
+      { "id": 57, "heated": false, "capacity": 82 },
+      { "id": 58, "heated": true, "capacity": 50 },
+      { "id": 158, "heated": true, "capacity": 36 },
+      { "id": 159, "heated": false, "capacity": 72 },
+      { "id": 160, "heated": false, "capacity": 30 },
+      { "id": 161, "heated": false, "capacity": 84 }
+    ]
   },
   {
     "id": 23,
     "studio_name": "Crooks Inc",
     "city": "Anchorage",
     "state": "AK",
-    "website": "http://apache.org"
+    "website": "http://apache.org",
+    "rooms": [
+      { "id": 59, "heated": false, "capacity": 61 },
+      { "id": 60, "heated": false, "capacity": 74 }
+    ]
   },
   {
     "id": 24,
     "studio_name": "Reichert LLC",
     "city": "Grand Rapids",
     "state": "MI",
-    "website": "http://istockphoto.com"
+    "website": "http://istockphoto.com",
+    "rooms": [
+      { "id": 61, "heated": true, "capacity": 100 },
+      { "id": 62, "heated": false, "capacity": 78 }
+    ]
   },
   {
     "id": 25,
     "studio_name": "Gorczany, Bayer and Purdy",
     "city": "Tampa",
     "state": "FL",
-    "website": "https://cyberchimps.com"
+    "website": "https://cyberchimps.com",
+    "rooms": [
+      { "id": 63, "heated": false, "capacity": 79 },
+      { "id": 64, "heated": true, "capacity": 85 },
+      { "id": 65, "heated": false, "capacity": 44 }
+    ]
   },
   {
     "id": 26,
     "studio_name": "Hoeger-Parisian",
     "city": "Montgomery",
     "state": "AL",
-    "website": "https://ow.ly"
+    "website": "https://ow.ly",
+    "rooms": [
+      { "id": 66, "heated": true, "capacity": 74 },
+      { "id": 67, "heated": false, "capacity": 78 },
+      { "id": 68, "heated": false, "capacity": 32 },
+      { "id": 69, "heated": true, "capacity": 34 }
+    ]
   },
   {
     "id": 27,
     "studio_name": "Murphy, Kessler and Blanda",
     "city": "Corpus Christi",
     "state": "TX",
-    "website": "http://barnesandnoble.com"
+    "website": "http://barnesandnoble.com",
+    "rooms": [
+      { "id": 70, "heated": true, "capacity": 82 },
+      { "id": 71, "heated": false, "capacity": 97 },
+      { "id": 72, "heated": false, "capacity": 64 }
+    ]
   },
   {
     "id": 28,
     "studio_name": "Rodriguez-Hayes",
     "city": "Bozeman",
     "state": "MT",
-    "website": "http://latimes.com"
+    "website": "http://latimes.com",
+    "rooms": [
+      { "id": 73, "heated": true, "capacity": 96 },
+      { "id": 74, "heated": false, "capacity": 67 }
+    ]
   },
   {
     "id": 29,
     "studio_name": "Kuhlman Inc",
     "city": "Jackson",
     "state": "TN",
-    "website": "http://g.co"
+    "website": "http://g.co",
+    "rooms": [
+      { "id": 75, "heated": false, "capacity": 60 },
+      { "id": 76, "heated": false, "capacity": 82 },
+      { "id": 77, "heated": true, "capacity": 33 }
+    ]
   },
   {
     "id": 30,
     "studio_name": "Ritchie, Keebler and Von",
     "city": "Whittier",
     "state": "CA",
-    "website": "http://rakuten.co.jp"
+    "website": "http://rakuten.co.jp",
+    "rooms": [
+      { "id": 78, "heated": false, "capacity": 39 },
+      { "id": 79, "heated": true, "capacity": 78 },
+      { "id": 80, "heated": true, "capacity": 82 },
+      { "id": 81, "heated": false, "capacity": 80 }
+    ]
   },
   {
     "id": 31,
     "studio_name": "Emmerich, Tremblay and Lubowitz",
     "city": "Fresno",
     "state": "CA",
-    "website": "http://ucla.edu"
+    "website": "http://ucla.edu",
+    "rooms": [
+      { "id": 82, "heated": false, "capacity": 72 },
+      { "id": 83, "heated": true, "capacity": 34 },
+      { "id": 84, "heated": false, "capacity": 55 },
+      { "id": 85, "heated": false, "capacity": 59 },
+      { "id": 86, "heated": false, "capacity": 83 }
+    ]
   },
   {
     "id": 32,
     "studio_name": "Douglas, Auer and Zulauf",
     "city": "Memphis",
     "state": "TN",
-    "website": "https://creativecommons.org"
+    "website": "https://creativecommons.org",
+    "rooms": [
+      { "id": 87, "heated": true, "capacity": 49 },
+      { "id": 88, "heated": false, "capacity": 91 },
+      { "id": 89, "heated": true, "capacity": 66 }
+    ]
   },
   {
     "id": 33,
     "studio_name": "Jerde LLC",
     "city": "Pittsburgh",
     "state": "PA",
-    "website": "https://dagondesign.com"
+    "website": "https://dagondesign.com",
+    "rooms": [
+      { "id": 90, "heated": false, "capacity": 55 },
+      { "id": 91, "heated": true, "capacity": 33 },
+      { "id": 92, "heated": true, "capacity": 61 }
+    ]
   },
   {
     "id": 34,
     "studio_name": "Romaguera, Considine and Smitham",
     "city": "Hampton",
     "state": "VA",
-    "website": "http://marriott.com"
+    "website": "http://marriott.com",
+    "rooms": [{ "id": 95, "heated": true, "capacity": 30 }]
   },
   {
     "id": 35,
     "studio_name": "Predovic-Fay",
     "city": "Dallas",
     "state": "TX",
-    "website": "http://google.fr"
+    "website": "http://google.fr",
+    "rooms": [
+      { "id": 93, "heated": false, "capacity": 43 },
+      { "id": 94, "heated": true, "capacity": 71 }
+    ]
   },
   {
     "id": 36,
     "studio_name": "Wintheiser Group",
     "city": "Troy",
     "state": "MI",
-    "website": "http://nytimes.com"
+    "website": "http://nytimes.com",
+    "rooms": [
+      { "id": 96, "heated": true, "capacity": 100 },
+      { "id": 97, "heated": true, "capacity": 61 },
+      { "id": 98, "heated": false, "capacity": 53 },
+      { "id": 99, "heated": false, "capacity": 62 }
+    ]
   },
   {
     "id": 37,
     "studio_name": "Johnson, Hartmann and Shanahan",
     "city": "Saint Petersburg",
     "state": "FL",
-    "website": "http://ucsd.edu"
+    "website": "http://ucsd.edu",
+    "rooms": [
+      { "id": 100, "heated": true, "capacity": 99 },
+      { "id": 101, "heated": true, "capacity": 96 },
+      { "id": 102, "heated": false, "capacity": 30 },
+      { "id": 103, "heated": true, "capacity": 61 }
+    ]
   },
   {
     "id": 38,
     "studio_name": "Fay, Herzog and Mills",
     "city": "Pueblo",
     "state": "CO",
-    "website": "https://blogspot.com"
+    "website": "https://blogspot.com",
+    "rooms": [
+      { "id": 104, "heated": false, "capacity": 95 },
+      { "id": 105, "heated": true, "capacity": 71 }
+    ]
   },
   {
     "id": 39,
     "studio_name": "Borer-Considine",
     "city": "Pittsburgh",
     "state": "PA",
-    "website": "https://ihg.com"
+    "website": "https://ihg.com",
+    "rooms": [
+      { "id": 106, "heated": false, "capacity": 79 },
+      { "id": 107, "heated": false, "capacity": 86 },
+      { "id": 108, "heated": true, "capacity": 86 }
+    ]
   },
   {
     "id": 40,
     "studio_name": "Schinner and Sons",
     "city": "Boise",
     "state": "ID",
-    "website": "https://usgs.gov"
+    "website": "https://usgs.gov",
+    "rooms": [
+      { "id": 109, "heated": true, "capacity": 92 },
+      { "id": 110, "heated": false, "capacity": 61 },
+      { "id": 111, "heated": true, "capacity": 84 }
+    ]
   },
   {
     "id": 41,
     "studio_name": "Kerluke, Carroll and Lubowitz",
     "city": "Tampa",
     "state": "FL",
-    "website": "http://ustream.tv"
+    "website": "http://ustream.tv",
+    "rooms": [
+      { "id": 112, "heated": true, "capacity": 89 },
+      { "id": 113, "heated": false, "capacity": 72 },
+      { "id": 114, "heated": false, "capacity": 91 },
+      { "id": 115, "heated": true, "capacity": 85 }
+    ]
   },
   {
     "id": 42,
     "studio_name": "VonRueden-Reynolds",
     "city": "Houston",
     "state": "TX",
-    "website": "http://earthlink.net"
+    "website": "http://earthlink.net",
+    "rooms": [
+      { "id": 116, "heated": true, "capacity": 100 },
+      { "id": 117, "heated": false, "capacity": 43 },
+      { "id": 118, "heated": true, "capacity": 89 },
+      { "id": 119, "heated": true, "capacity": 98 }
+    ]
   },
   {
     "id": 43,
     "studio_name": "Ondricka-Becker",
     "city": "Honolulu",
     "state": "HI",
-    "website": "https://bandcamp.com"
+    "website": "https://bandcamp.com",
+    "rooms": [
+      { "id": 120, "heated": true, "capacity": 30 },
+      { "id": 121, "heated": false, "capacity": 32 },
+      { "id": 122, "heated": true, "capacity": 43 },
+      { "id": 123, "heated": false, "capacity": 75 },
+      { "id": 124, "heated": true, "capacity": 59 }
+    ]
   },
   {
     "id": 44,
     "studio_name": "Satterfield-Sawayn",
     "city": "San Francisco",
     "state": "CA",
-    "website": "https://domainmarket.com"
+    "website": "https://domainmarket.com",
+    "rooms": [
+      { "id": 125, "heated": false, "capacity": 56 },
+      { "id": 126, "heated": false, "capacity": 35 },
+      { "id": 127, "heated": true, "capacity": 58 }
+    ]
   },
   {
     "id": 45,
     "studio_name": "McCullough-Barrows",
     "city": "Mobile",
     "state": "AL",
-    "website": "https://mapquest.com"
+    "website": "https://mapquest.com",
+    "rooms": [
+      { "id": 128, "heated": false, "capacity": 71 },
+      { "id": 129, "heated": false, "capacity": 32 },
+      { "id": 130, "heated": false, "capacity": 76 },
+      { "id": 131, "heated": true, "capacity": 70 }
+    ]
   },
   {
     "id": 46,
     "studio_name": "Hyatt-Heaney",
     "city": "Muncie",
     "state": "IN",
-    "website": "http://nature.com"
+    "website": "http://nature.com",
+    "rooms": [
+      { "id": 132, "heated": false, "capacity": 41 },
+      { "id": 133, "heated": true, "capacity": 73 },
+      { "id": 134, "heated": true, "capacity": 38 },
+      { "id": 135, "heated": false, "capacity": 99 },
+      { "id": 136, "heated": true, "capacity": 94 }
+    ]
   },
   {
     "id": 47,
     "studio_name": "Purdy-Douglas",
     "city": "Jackson",
     "state": "MS",
-    "website": "https://zdnet.com"
+    "website": "https://zdnet.com",
+    "rooms": [
+      { "id": 137, "heated": false, "capacity": 90 },
+      { "id": 138, "heated": false, "capacity": 93 }
+    ]
   },
   {
     "id": 48,
     "studio_name": "Terry-Kulas",
     "city": "Nashville",
     "state": "TN",
-    "website": "http://irs.gov"
+    "website": "http://irs.gov",
+    "rooms": [
+      { "id": 139, "heated": false, "capacity": 70 },
+      { "id": 140, "heated": true, "capacity": 67 },
+      { "id": 141, "heated": true, "capacity": 99 },
+      { "id": 142, "heated": true, "capacity": 40 }
+    ]
   },
   {
     "id": 49,
     "studio_name": "Funk, Reilly and Larson",
     "city": "Moreno Valley",
     "state": "CA",
-    "website": "http://plala.or.jp"
+    "website": "http://plala.or.jp",
+    "rooms": [
+      { "id": 143, "heated": false, "capacity": 34 },
+      { "id": 144, "heated": false, "capacity": 86 },
+      { "id": 145, "heated": false, "capacity": 85 },
+      { "id": 146, "heated": true, "capacity": 83 },
+      { "id": 147, "heated": true, "capacity": 70 }
+    ]
   },
   {
     "id": 50,
     "studio_name": "Howell Inc",
     "city": "Wichita",
     "state": "KS",
-    "website": "https://baidu.com"
+    "website": "https://baidu.com",
+    "rooms": [
+      { "id": 148, "heated": false, "capacity": 71 },
+      { "id": 149, "heated": true, "capacity": 47 },
+      { "id": 150, "heated": false, "capacity": 97 },
+      { "id": 151, "heated": true, "capacity": 96 },
+      { "id": 152, "heated": false, "capacity": 52 },
+      { "id": 153, "heated": true, "capacity": 30 }
+    ]
   }
 ]

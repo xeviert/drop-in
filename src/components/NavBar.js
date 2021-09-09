@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 // import AppContext from '../AppContext'
-import './styling/NavBar.css';
+import '../styling/NavBar.css';
 
 export default function NavBar() {
   return (
@@ -18,16 +18,16 @@ export default function NavBar() {
           <Link className='link' to='/users'>
             Users
           </Link> */}
-          <Link className='link' to='/teachers'>
+          <Link className='navbar-link' to='/teachers'>
             Teachers
           </Link>
-          <Link className='link' to='/studios'>
+          <Link className='navbar-link' to='/studios'>
             Studios
           </Link>
-          <Link className='link' to='/login'>
+          <Link className='navbar-link' to='/login'>
             Login
           </Link>
-          <Link className='link' to='/register'>
+          <Link className='navbar-link' to='/register'>
             Register
           </Link>
         </div>

@@ -1,14 +1,13 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
-import About from './components/About';
-import Home from './components/Home';
-import Users from './components/Users';
-import Footer from './components/Footer';
-import Register from './components/Register';
-import Teachers from './components/Teachers';
-import Login from './components/Login';
-import Studios from './components/Studios';
+import About from './routes/About';
+import Home from './routes/Home';
+import Users from './routes/Users';
+import Register from './routes/Register';
+import Teachers from './routes/Teachers';
+import Login from './routes/Login';
+import Studios from './routes/Studios';
 
 import './App.css';
 

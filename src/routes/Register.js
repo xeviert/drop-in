@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import './styling/RegisterLogin.css';
+// import './styling/RegisterLogin.css';
 
 export default function Register() {
   return (

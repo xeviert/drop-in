@@ -1,5 +1,5 @@
 import React from 'react';
-import './styling/RegisterLogin.css';
+// import './styling/RegisterLogin.css';
 
 export default function Login() {
   return (
