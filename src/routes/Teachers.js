@@ -17,8 +17,8 @@ export default function Teachers() {
         </div>
         <a href={t.website}>{t.website}</a>
         <Collapsible>
-        <div>{t.certifications}</div>
-        <div>{t.yoga_types}</div>
+        <div>Certifications: {t.certifications}</div>
+        <div>Yoga Types: {t.yoga_types}</div>
         </Collapsible>
       </div>
 
@@ -27,6 +27,7 @@ export default function Teachers() {
 
   return (
     <div className='page-body'>
+      <h1>Teachers</h1>
       <div
         sx={{
           display: 'grid',

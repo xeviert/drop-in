@@ -7,7 +7,7 @@ export default function NavBar() {
   return (
     <nav id='nav-bar'>
       <div id='container-inside-nav'>
-        <h1>Drop In</h1>
+        <h1>DropIn</h1>
         <div id='nav-links'>
           {/* <Link className='link' to='/'>
             Home

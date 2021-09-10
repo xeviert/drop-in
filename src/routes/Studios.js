@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 import { AppContext } from '../AppContext';
 import Collapsible from '../components/Collapsible';
 
@@ -13,12 +13,23 @@ export default function Studios() {
       <div className='p-3 col-md'>
         <div key={s.key}>{s.studio_name}</div>
         <div>
-          {s.city},{' '}{s.state}
+          {s.city}, {s.state}
         </div>
         <a href={s.website}>{s.website}</a>
         <Collapsible>
-        <div></div>
-        <div></div>
+          <h5>Rooms:</h5>
+          {s.rooms.map((r) => {
+            return (
+              <>
+                <div>
+                  Heated:
+                  {r.heated ? 'Yes' : 'No'}
+                </div>
+                <div>Capacity: {r.capacity}</div>
+                <br />
+              </>
+            );
+          })}
         </Collapsible>
       </div>
     );
@@ -26,7 +37,7 @@ export default function Studios() {
 
   return (
     <div className='page-body'>
-      {/* <Table columns={columns} data={data} /> */}
+      <h1>Studios</h1>
       <div
         sx={{
           display: 'grid',

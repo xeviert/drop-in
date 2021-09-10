@@ -4,14 +4,48 @@ import { Link } from 'react-router-dom';
 // import './styling/RegisterLogin.css';
 
 export default function Register() {
+  const Register = {
+    width: '70%',
+    margin: '0 auto',
+  };
+
+  const registerBtn = {
+    background: '#0084ff',
+    border: 'unset',
+    cursor: 'pointer',
+    font: 'unset',
+    padding: '0.6rem',
+    borderRadius: '5px',
+    color: 'white',
+    margin: '0 auto',
+    display: 'block',
+    width: '30%',
+  };
+
+  const form = {
+    padding: '2em',
+    borderRadius: '5px',
+    backgroundColor: '#F3F3F3'
+  };
+
+  const alreadyRegistered = {
+    margin: '0 auto',
+    marginTop: '3em',
+    textAlign: 'center',
+    backgroundColor: '#F3F3F3',
+    width: '28%',
+    padding: '.7em 0',
+    borderRadius: '5px',
+  };
+
   return (
     <div className='page-body'>
       <div>
         <h1>Register</h1>
       </div>
 
-      <section id='register-login-form'>
-        <form className='form-group register-form'>
+      <section style={Register}>
+        <form style={form}>
           {/* {this.state.error && <p className='error'>{this.state.error}</p>} */}
           <label for='first-name' id='label-id'>
             Full name:
@@ -57,20 +91,20 @@ export default function Register() {
             required
           ></input>
           <br />
-          <button type='submit' className='btn'>
+          <button type='submit' style={registerBtn}>
             Register
           </button>
         </form>
-      </section>
 
-      <div>
-        <p>Already have an account?</p>
-        <Link to='/login'>
-          <p>
-            <em>Login</em>
-          </p>
-        </Link>
-      </div>
+        <div style={alreadyRegistered}>
+          Already have an account?
+          <Link to='/login'>
+            <div>
+              <em>Login</em>
+            </div>
+          </Link>
+        </div>
+      </section>
     </div>
   );
 }
