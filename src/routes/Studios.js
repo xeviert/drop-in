@@ -23,7 +23,7 @@ export default function Studios() {
               <>
                 <div>
                   Heated:
-                  {r.heated ? 'Yes' : 'No'}
+                  {r.heated ? ' Yes' : ' No'}
                 </div>
                 <div>Capacity: {r.capacity}</div>
                 <br />
