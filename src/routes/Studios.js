@@ -1,12 +1,32 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState, useEffect } from 'react';
 import { AppContext } from '../AppContext';
 import Collapsible from '../components/Collapsible';
+// import Image from '../components/Image';
+// import config from '../config';
 
 /** @jsxImportSource theme-ui */
 
 export default function Studios() {
   const appContext = useContext(AppContext);
   const { studios } = appContext;
+
+  // const [studioPhotos, setStudioPhotos] = useState([]);
+
+  // useEffect(() => {
+  //   getAllStudioPhotos();
+  // }, []);
+
+  // const getAllStudioPhotos = () => {
+  //   return fetch(
+  //     `${config.PHOTO_API_ENDPOINT}/search/photos?query=yoga+studio&total_pages=5&client_id=${process.env.REACT_APP_CLIENT_ID}`
+  //   )
+  //     .then((res) => {
+  //       return res.json();
+  //     })
+  //     .then((photos) => {
+  //       setStudioPhotos(photos.results);
+  //     });
+  // };
 
   const allStudios = studios.map((s) => {
     return (
@@ -46,6 +66,9 @@ export default function Studios() {
         }}
       >
         {allStudios}
+        {/* {studioPhotos.map((image) => {
+          return <Image key={image.index} {...image}/>
+        })} */}
       </div>
     </div>
   );
