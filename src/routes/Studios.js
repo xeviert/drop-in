@@ -36,6 +36,7 @@ export default function Studios() {
           {s.city}, {s.state}
         </div>
         <a href={s.website}>{s.website}</a>
+        <img src={s.photo} />
         <Collapsible>
           <h5>Rooms:</h5>
           {s.rooms.map((r) => {
@@ -58,6 +59,7 @@ export default function Studios() {
   return (
     <div className='page-body'>
       <h1>Studios</h1>
+      <img src="public\studios\1.avif" />
       <div
         sx={{
           display: 'grid',
@@ -65,7 +67,7 @@ export default function Studios() {
           gridTemplateColumns: ['repeat(2, 1fr)', 'repeat(4, 1fr)'],
         }}
       >
-        {allStudios}
+        {/* {allStudios} */}
         {/* {studioPhotos.map((image) => {
           return <Image key={image.index} {...image}/>
         })} */}
