@@ -460,5 +460,123 @@
       { "id": 152, "heated": false, "capacity": 52 },
       { "id": 153, "heated": true, "capacity": 30 }
     ]
+  },
+  {
+    "id": 11,
+    "studio_name": "Shanahan, Dickens and Russel",
+    "city": "Austin",
+    "state": "TX",
+    "website": "http://baidu.com",
+    "rooms": [
+      { "id": 26, "heated": false, "capacity": 48 },
+      { "id": 27, "heated": false, "capacity": 74 },
+      { "id": 28, "heated": false, "capacity": 94 },
+      { "id": 29, "heated": true, "capacity": 77 }
+    ]
+  },
+  {
+    "id": 12,
+    "studio_name": "Hackett-Legros",
+    "city": "Madison",
+    "state": "WI",
+    "website": "https://europa.eu",
+    "rooms": [
+      { "id": 30, "heated": true, "capacity": 76 },
+      { "id": 31, "heated": true, "capacity": 80 }
+    ]
+  },
+  {
+    "id": 13,
+    "studio_name": "Ankunding, Corwin and Gusikowski",
+    "city": "Beaufort",
+    "state": "SC",
+    "website": "http://wix.com",
+    "rooms": [
+      { "id": 32, "heated": false, "capacity": 52 },
+      { "id": 33, "heated": false, "capacity": 50 },
+      { "id": 34, "heated": true, "capacity": 96 }
+    ]
+  },
+  {
+    "id": 14,
+    "studio_name": "McLaughlin, Sipes and Gorczany",
+    "city": "Largo",
+    "state": "FL",
+    "website": "https://salon.com",
+    "rooms": [
+      { "id": 35, "heated": true, "capacity": 49 },
+      { "id": 36, "heated": true, "capacity": 98 }
+    ]
+  },
+  {
+    "id": 15,
+    "studio_name": "Wisozk-Lubowitz",
+    "city": "El Paso",
+    "state": "TX",
+    "website": "http://uiuc.edu",
+    "rooms": [
+      { "id": 37, "heated": false, "capacity": 65 },
+      { "id": 38, "heated": false, "capacity": 69 }
+    ]
+  },
+  {
+    "id": 16,
+    "studio_name": "Davis-Hintz",
+    "city": "Bakersfield",
+    "state": "CA",
+    "website": "http://mapy.cz",
+    "rooms": [
+      { "id": 39, "heated": false, "capacity": 100 },
+      { "id": 40, "heated": false, "capacity": 82 }
+    ]
+  },
+  {
+    "id": 17,
+    "studio_name": "Keeling Inc",
+    "city": "Hyattsville",
+    "state": "MD",
+    "website": "https://timesonline.co.uk",
+    "rooms": [
+      { "id": 41, "heated": false, "capacity": 48 },
+      { "id": 42, "heated": true, "capacity": 62 },
+      { "id": 43, "heated": true, "capacity": 78 }
+    ]
+  },
+  {
+    "id": 18,
+    "studio_name": "Ratke Group",
+    "city": "Omaha",
+    "state": "NE",
+    "website": "http://hubpages.com",
+    "rooms": [
+      { "id": 44, "heated": false, "capacity": 71 },
+      { "id": 45, "heated": false, "capacity": 74 },
+      { "id": 46, "heated": true, "capacity": 81 },
+      { "id": 47, "heated": false, "capacity": 35 }
+    ]
+  },
+  {
+    "id": 19,
+    "studio_name": "Wilderman, Strosin and Hilpert",
+    "city": "New York City",
+    "state": "NY",
+    "website": "http://google.co.jp",
+    "rooms": [
+      { "id": 48, "heated": false, "capacity": 96 },
+      { "id": 49, "heated": true, "capacity": 92 },
+      { "id": 50, "heated": false, "capacity": 73 },
+      { "id": 51, "heated": false, "capacity": 39 }
+    ]
+  },
+  {
+    "id": 20,
+    "studio_name": "D'Amore-O'Conner",
+    "city": "Saint Louis",
+    "state": "MO",
+    "website": "https://ow.ly",
+    "rooms": [
+      { "id": 52, "heated": true, "capacity": 45 },
+      { "id": 53, "heated": true, "capacity": 70 }
+    ]
   }
 ]

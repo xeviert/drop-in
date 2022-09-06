@@ -68,9 +68,11 @@ export default function Studios() {
       >
         {allStudios}
 
-        {studioPhotos.map((image) => {
-          return <img src={image.urls.small} />;
-        })}
+        {/* {studioPhotos.map((image) => {
+          return (
+              <img src={image.urls.small} loading='lazy' />
+          );
+        })} */}
       </div>
     </div>
   );
