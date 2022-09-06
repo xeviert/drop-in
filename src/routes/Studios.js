@@ -1,8 +1,8 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { AppContext } from '../AppContext';
 import Collapsible from '../components/Collapsible';
-// import Image from '../components/Image';
-// import config from '../config';
+import Image from '../components/Image';
+import config from '../config';
 
 /** @jsxImportSource theme-ui */
 
@@ -10,33 +10,33 @@ export default function Studios() {
   const appContext = useContext(AppContext);
   const { studios } = appContext;
 
-  // const [studioPhotos, setStudioPhotos] = useState([]);
+  const [studioPhotos, setStudioPhotos] = useState([]);
 
-  // useEffect(() => {
-  //   getAllStudioPhotos();
-  // }, []);
+  useEffect(() => {
+    getAllStudioPhotos();
+  }, []);
 
-  // const getAllStudioPhotos = () => {
-  //   return fetch(
-  //     `${config.PHOTO_API_ENDPOINT}/search/photos?query=yoga+studio&total_pages=5&client_id=${process.env.REACT_APP_CLIENT_ID}`
-  //   )
-  //     .then((res) => {
-  //       return res.json();
-  //     })
-  //     .then((photos) => {
-  //       setStudioPhotos(photos.results);
-  //     });
-  // };
+  const getAllStudioPhotos = () => {
+    return fetch(
+      `${config.PHOTO_API_ENDPOINT}/search/photos?query=yoga+studio&total_pages=5&client_id=${process.env.REACT_APP_CLIENT_ID}`
+    )
+      .then((res) => {
+        return res.json();
+      })
+      .then((photos) => {
+        setStudioPhotos(photos.results);
+      });
+  };
 
   const allStudios = studios.map((s) => {
     return (
-      <div className='p-3 col-md'>
-        <div key={s.key}>{s.studio_name}</div>
+      <div className="p-3 col-md">
+        <div key={s.id}>{s.studio_name}</div>
         <div>
           {s.city}, {s.state}
         </div>
         <a href={s.website}>{s.website}</a>
-        <img src={s.photo} />
+
         <Collapsible>
           <h5>Rooms:</h5>
           {s.rooms.map((r) => {
@@ -57,9 +57,8 @@ export default function Studios() {
   });
 
   return (
-    <div className='page-body'>
+    <div className="page-body">
       <h1>Studios</h1>
-      <img src="public\studios\1.avif" />
       <div
         sx={{
           display: 'grid',
@@ -67,10 +66,11 @@ export default function Studios() {
           gridTemplateColumns: ['repeat(2, 1fr)', 'repeat(4, 1fr)'],
         }}
       >
-        {/* {allStudios} */}
-        {/* {studioPhotos.map((image) => {
-          return <Image key={image.index} {...image}/>
-        })} */}
+        {allStudios}
+
+        {studioPhotos.map((image) => {
+          return <img src={image.urls.small} />;
+        })}
       </div>
     </div>
   );
