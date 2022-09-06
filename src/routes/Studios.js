@@ -1,8 +1,8 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { AppContext } from '../AppContext';
 import Collapsible from '../components/Collapsible';
-import Image from '../components/Image';
 import config from '../config';
+import Modal from '../components/Modal'
 
 /** @jsxImportSource theme-ui */
 
@@ -66,6 +66,7 @@ export default function Studios() {
           gridTemplateColumns: ['repeat(2, 1fr)', 'repeat(4, 1fr)'],
         }}
       >
+        <Modal />
         {allStudios}
 
         {/* {studioPhotos.map((image) => {
