@@ -2,7 +2,7 @@ import React, { useContext, useState, useEffect } from 'react';
 import { AppContext } from '../AppContext';
 import Collapsible from '../components/Collapsible';
 import config from '../config';
-import Modal from '../components/Modal'
+import CalendarModal from '../components/CalendarModal'
 
 /** @jsxImportSource theme-ui */
 
@@ -59,6 +59,8 @@ export default function Studios() {
   return (
     <div className="page-body">
       <h1>Studios</h1>
+      <CalendarModal />
+      
       <div
         sx={{
           display: 'grid',
@@ -66,7 +68,6 @@ export default function Studios() {
           gridTemplateColumns: ['repeat(2, 1fr)', 'repeat(4, 1fr)'],
         }}
       >
-        <Modal />
         {allStudios}
 
         {/* {studioPhotos.map((image) => {
