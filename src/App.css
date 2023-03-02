@@ -14,5 +14,10 @@ h2 {
 
   .page-body {
     width: 70%;
+    margin-top: 25px;
+  }
+
+  .page-content {
+    margin-top: 40px;
   }
 }

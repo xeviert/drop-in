@@ -1,0 +1,31 @@
+.teacher-item {
+    padding-top: 3px;
+    padding-bottom: 5px;
+    margin-bottom: 1vh;
+    border-style: solid;
+    border-color: rgba(192, 192, 192, 0.175);
+    background-color: #ffffff9a;
+    background: linear-gradient(
+        to right bottom,
+        rgba(176, 176, 176, 0.224),
+        rgba(87, 87, 87, 0.124)
+    );
+    border-width: thin;
+    border-radius: 10px;
+}
+
+.full-name {
+    font-weight: bold;
+}
+
+.location {
+    font-weight: lighter;
+}
+
+img {
+    border: 1px;
+    border-radius: 8px;
+    width: 250px;
+    margin-bottom: 10px;
+    margin-top: 6px
+  }
