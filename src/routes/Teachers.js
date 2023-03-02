@@ -19,7 +19,7 @@ export default function Teachers() {
           {t.city},{' '}{t.state}
         </div>
         <div>
-        <img src={t.photo_source}  />
+        <img src={t.photo_source} className='teachers-photos' />
         </div>
         <Collapsible>
         <a href={t.website}>{t.website}</a>

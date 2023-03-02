@@ -4,6 +4,8 @@ import Collapsible from '../components/Collapsible';
 import Image from '../components/Image';
 import config from '../config';
 
+import '../styling/Studios.css';
+
 /** @jsxImportSource theme-ui */
 
 export default function Studios() {
@@ -30,12 +32,15 @@ export default function Studios() {
 
   const allStudios = studios.map((s) => {
     return (
-      <div className="p-3 col-md">
-        <div key={s.id}>{s.studio_name}</div>
-        <div>
+      <div className="p-3 col-md studio-item">
+        <div key={s.id} className='studio-name'>{s.studio_name}</div>
+        <div className='location'>
           {s.city}, {s.state}
         </div>
         <a href={s.website}>{s.website}</a>
+        <div>
+        <img src={s.photo_source} className='studio-photos' />
+        </div>
 
         <Collapsible>
           <h5>Rooms:</h5>
@@ -63,7 +68,7 @@ export default function Studios() {
         sx={{
           display: 'grid',
           gridGap: 5,
-          gridTemplateColumns: ['repeat(2, 1fr)', 'repeat(4, 1fr)'],
+          gridTemplateColumns: ['repeat(2, 1fr)', 'repeat(3, 1fr)'],
         }}
       >
         {allStudios}

@@ -22,10 +22,10 @@
     font-weight: lighter;
 }
 
-img {
+.teachers-photos {
     border: 1px;
     border-radius: 8px;
     width: 250px;
     margin-bottom: 10px;
     margin-top: 6px
-  }
+}
