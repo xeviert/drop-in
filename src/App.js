@@ -4,10 +4,12 @@ import NavBar from './components/NavBar';
 import About from './routes/About';
 import Home from './routes/Home';
 import Users from './routes/Users';
-import Register from './routes/Register';
+// import Register from './routes/Register';
 import Teachers from './routes/Teachers';
 import Login from './routes/Login';
 import Studios from './routes/Studios';
+import Register from './components/RegisterForm';
+import Footer from './components/Footer';
 
 import './App.css';
 
@@ -24,7 +26,7 @@ function App() {
         <Route path='/login' component={Login} />
         <Route path='/register' component={Register} />
       </Switch>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

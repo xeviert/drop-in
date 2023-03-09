@@ -46,7 +46,7 @@ export default function Login() {
       <section style={Login}>
         <form style={form}>
           {/* {this.state.error && <p className='error'>{this.state.error}</p>} */}
-          <label for="email" id="label-id" type="email" required>
+          <label htmlFor="email" id="label-id" type="email" required>
             Email:
           </label>
           <input
@@ -57,7 +57,7 @@ export default function Login() {
             required
           ></input>
           <br />
-          <label for="password" id="label-id">
+          <label htmlFor="password" id="label-id">
             Password:
           </label>
           <input

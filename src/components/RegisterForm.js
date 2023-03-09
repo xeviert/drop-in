@@ -1,13 +1,14 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, {useState } from 'react'
+import { Link, useHistory } from "react-router-dom";
 import { Input, Required, Label } from './Form';
 import Button from './Button';
 import AuthApiService from '../services/auth-api-service';
 
-// import './styling/RegisterLogin.css';
-
 export default function Register() {
-  const Register = {
+  const [error, setError] = useState(null);
+  let history = useHistory();
+
+  const registerForm = {
     width: '70%',
     margin: '0 auto',
   };
@@ -41,25 +42,32 @@ export default function Register() {
     borderRadius: '5px',
   };
 
-  handleSubmit = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    const { name, email, password } = e.target;
+    const { full_name, email, password, confirmPassword } = e.target;
+    setError({ error: null });
+
+    if (password.value !== confirmPassword.value) {
+      return setError({ error: 'Passwords do not match' });
+    }
+
     AuthApiService.postUser({
-      name: name.value,
+      full_name: full_name.value,
       email: email.value,
       password: password.value,
     })
-      .then(() => {
-        name.value = '';
-        email.value = '';
-        password.value = '';
-        // remove .this
-        this.props.onRegistrationSuccess();
-      })
-      .catch((res) => {
-        // react hook
-        this.setState({ error: res.error });
-      });
+      // .then(() => {
+      //   name.value = '';
+      //   email.value = '';
+      //   password.value = '';
+      // })        
+        .then((res) => res.json())
+        // .then(() => {
+        //   history.push(`/`);
+        // })
+        .catch((error) => {
+          setError(error);
+        });
   };
 
   return (
@@ -68,11 +76,11 @@ export default function Register() {
         <h1>Register</h1>
       </div>
 
-      <section style={Register}>
+      <section style={registerForm}>
         <form style={form} onSubmit={handleSubmit}>
-          {/* {this.state.error && <p className='error'>{this.state.error}</p>} */}
-          <Label for="first-name" id="label-id">
-            Full name:
+          {error && <p className='error'>{error}</p>}
+          <Label htmlFor="first-name" id="label-id">
+            Full Name:
             <Required />
           </Label>
           <Input
@@ -83,7 +91,7 @@ export default function Register() {
             required
           />
           <br />
-          <Label for="email" id="label-id" type="email" required>
+          <Label htmlFor="email" id="label-id" type="email" required>
             Email:
             <Required />
           </Label>
@@ -95,7 +103,7 @@ export default function Register() {
             required
           />
           <br />
-          <Label for="password" id="label-id">
+          <Label htmlFor="password" id="label-id">
             Password:
             <Required />
           </Label>
@@ -107,7 +115,7 @@ export default function Register() {
             required
           />
           <br />
-          <Label for="confirm-pw" id="label-id">
+          <Label htmlFor="confirm-pw" id="label-id">
             Confirm Password:
             <Required />
           </Label>

@@ -1,5 +1,5 @@
 const config = {
-  PHOTO_API_ENDPOINT: "https://api.unsplash.com"
+  API_ENDPOINT: "http://localhost:8000"
 };
 
 export default config

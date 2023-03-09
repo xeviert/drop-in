@@ -1,8 +1,6 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { AppContext } from '../AppContext';
 import Collapsible from '../components/Collapsible';
-import Image from '../components/Image';
-import config from '../config';
 
 import '../styling/Studios.css';
 
@@ -12,23 +10,9 @@ export default function Studios() {
   const appContext = useContext(AppContext);
   const { studios } = appContext;
 
-  const [studioPhotos, setStudioPhotos] = useState([]);
-
-  useEffect(() => {
-    getAllStudioPhotos();
-  }, []);
-
-  const getAllStudioPhotos = () => {
-    return fetch(
-      `${config.PHOTO_API_ENDPOINT}/search/photos?query=yoga+studio&total_pages=5&client_id=${process.env.REACT_APP_CLIENT_ID}`
-    )
-      .then((res) => {
-        return res.json();
-      })
-      .then((photos) => {
-        setStudioPhotos(photos.results);
-      });
-  };
+  // useEffect(() => {
+  //   getAllStudioPhotos();
+  // }, []);
 
   const allStudios = studios.map((s) => {
     return (
